@@ -1,0 +1,147 @@
+.md-header {
+    display: none;
+}
+
+.md-footer-meta,
+.md-footer {
+    background-color: #121212;
+}
+
+.md-sidebar {
+    width: 260px;
+}
+
+.md-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+    color: #ffffff;
+    font-weight: 400;
+    border-bottom: 1px solid #585858;
+    padding-bottom: 0.3em;
+}
+
+.md-typeset h1 {
+    font-weight: 500;
+}
+
+body {
+    background-color: #121212;
+    color: #cfcfcf;
+}
+
+.md-typeset a {
+    color: #8ab4f8;
+}
+
+.md-typeset a:hover {
+    color: #aecbfa;
+}
+
+.md-typeset code {
+    background-color: #262626;
+    color: #e6b673;
+    border-radius: 4px;
+    padding: 0.15em 0.45em;
+    font-size: 0.85em;
+}
+
+.md-typeset .highlight {
+    border: 1px solid #2f2f36;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    margin: 1em 0;
+}
+
+.md-typeset .highlight .filename {
+    background-color: #1e1e24;
+    color: #9d9da8;
+    font-weight: 600;
+    font-size: 0.8em;
+    padding: 0.6em 1.25em;
+    border-bottom: 1px solid #2f2f36;
+    margin: 0;
+}
+
+.md-typeset .highlight pre {
+    background-color: #17171b;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+}
+
+.md-typeset .highlight pre>code {
+    background-color: transparent;
+    color: #d8d8d8;
+    display: block;
+    padding: 1em 1.25em;
+    line-height: 1.6;
+    font-size: 0.85em;
+}
+
+.md-typeset .highlight .k,
+.md-typeset .highlight .kd,
+.md-typeset .highlight .kn {
+    color: #81a1c1;
+}
+
+.md-typeset .highlight .s,
+.md-typeset .highlight .s1,
+.md-typeset .highlight .s2 {
+    color: #a3be8c;
+}
+
+.md-typeset .highlight .c,
+.md-typeset .highlight .c1 {
+    color: #6a9955;
+    font-style: italic;
+}
+
+.md-typeset .highlight .n {
+    color: #d8d8d8;
+}
+
+.md-typeset .highlight .nb,
+.md-typeset .highlight .kt {
+    color: #88c0d0;
+}
+
+.md-typeset .highlight .nf,
+.md-typeset .highlight .fm {
+    color: #ebcb8b;
+}
+
+.md-typeset .highlight .mi,
+.md-typeset .highlight .m {
+    color: #b48ead;
+}
+
+.md-typeset .highlight .o,
+.md-typeset .highlight .p {
+    color: #9d9da8;
+}
+
+.md-typeset .md-clipboard,
+.md-typeset button.md-clipboard {
+    top: 0.6em;
+    right: 0.6em;
+    opacity: 0.6;
+}
+
+.md-typeset .md-clipboard:hover {
+    opacity: 1;
+}
+
+.md-typeset pre::-webkit-scrollbar {
+    height: 8px;
+}
+
+.md-typeset pre::-webkit-scrollbar-thumb {
+    background-color: #3a3a3a;
+    border-radius: 4px;
+}

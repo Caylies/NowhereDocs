@@ -1,0 +1,41 @@
+site_name: Nowhere Technical Guide
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - navigation.footer
+
+plugins:
+  - search
+  - markdown-exec
+
+nav:
+  - Home: index.md
+  - Styling:
+    - No LocalScripts: styling/localscripts.md
+    - Naming variables: styling/naming-variables.md
+    - Requires: styling/requires.md
+    - Spacing (WIP): styling/spacing.md
+  - Cookbook:
+    - What is a Feature?: cookbook/features.md
+    - 'Feature: "Kill Brick"': cookbook/killbrick.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+extra_css:
+  - styles.css

@@ -1,0 +1,11 @@
+[project]
+name = "documents"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "markdown-exec>=1.12.3",
+    "mkdocs-material>=9.7.7",
+    "pygments>=2.21.0",
+]
