@@ -3,15 +3,9 @@ site_name: Nowhere Technical Guide
 theme:
   name: material
   palette:
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Light mode
+    scheme: slate
+    primary: black
+    accent: indigo
   features:
     - navigation.sections
     - navigation.expand
@@ -38,4 +32,4 @@ markdown_extensions:
   - pymdownx.superfences
 
 extra_css:
-  - styles.css
+  - stylesheets/extra.css
